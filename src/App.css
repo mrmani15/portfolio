@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;  
+  color: white;
+  scroll-behavior: smooth;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-bg{
+  background-color: rgb(35, 40, 44);
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-bg{
+  background-color: black;
+  height: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.img-resize{
+  height: 30px;
+}
+.nav-bar{
+  font-size: large;
+}
+.home-me{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  padding-top: 90px;
 }
-
-.App-link {
-  color: #61dafb;
+.myImg {
+  height: 200px;
+  width: 200px;
+  border-radius: 30px;
+  background-size: cover;
+  border : 10px solid #2e2d2c;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-icon{
+  height: 40px;
+}
+.card-link{
+  display: flex;
+  flex-direction: column;
+}
+.card-hover:hover{
+  transition: transform .6s;
+  transform: scale(1.12);
+}
+.icon-hover:hover{
+  transition: transform .6s;
+  transform: scale(1.5);
+}
+.underline{
+  color: #fbab30;
+  text-transform: uppercase;  
+  text-decoration: underline;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.intern{
+  text-transform: uppercase;  
+  text-decoration: underline;
+  /* padding-bottom: 30px; */
+}
+.details{
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+#aboutme{
+  background-color:#2e2d2c;
+  height: 100%;
+}
+#experience{
+  background-color:#2e2d2c;
+  height: 100%;
+}
+#techskill{
+  background-color: #2e2d2c;
+  height: 100%;
+}
+#project{
+  background-color:#2e2d2c;
+}
+#experience{
+  background-color: #2e2d2c;
+  height: 100%;
+  padding-top: 100px !important;
+}
+a {
+  color: inherit;
+  text-decoration: inherit; /* no underline */
 }
